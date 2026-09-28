@@ -31,14 +31,14 @@ the raw data. Module 1 figures were cross-validated twice: in Python
 ## Repository contents
 
 ```
-01-data-visualisation/   report (.docx) + workbook (.xlsx)
-02-sales-forecasting/    report (.docx) + workbook (.xlsx)
-03-crm-nps/              report + workbook, plus:
+01-data-visualisation/   report (.pdf + .docx) + workbook (.xlsx)
+02-sales-forecasting/    report (.pdf + .docx) + workbook (.xlsx)
+03-crm-nps/              report (.pdf + .docx) + workbook, plus:
     survey_design.md         the 20-question instrument and its rationale
     create_google_form.gs    Apps Script that builds the Google Form
     mail_merge.gs            Apps Script for personalised invites and reminders
     distribution_kit.md      channel-by-channel outreach templates
-04-cash-flow-analysis/   report (.docx) + workbook (.xlsx)
+04-cash-flow-analysis/   report (.pdf + .docx) + workbook (.xlsx)
 code/
     module2_case3_subscription_channel.py   Module 1, case 3: subscription channel and promo-offer fit
     module2_case4_purchase_friction.py      Module 1, case 4: purchase-journey friction
