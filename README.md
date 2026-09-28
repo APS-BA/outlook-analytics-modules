@@ -39,4 +39,16 @@ the raw data. Module 1 figures were cross-validated twice: in Python
     mail_merge.gs            Apps Script for personalised invites and reminders
     distribution_kit.md      channel-by-channel outreach templates
 04-cash-flow-analysis/   report (.docx) + workbook (.xlsx)
+code/
+    module2_case3_subscription_channel.py   Module 1, case 3: subscription channel and promo-offer fit
+    module2_case4_purchase_friction.py      Module 1, case 4: purchase-journey friction
+    module2_case5_b2b_advertisers.py        Module 1, case 5: hidden B2B advertiser segment
+    module3_sales_forecasting.py            Module 2: weighted moving average + linear trend, Q1 2023 forecast
+    build_analytics_workbook.py             Builds the analysis workbook tables
 ```
+
+The scripts in `code/` are the Python generated and run in the Better Analyst AI
+analytics tool, exported verbatim with a header describing each one (file names keep
+the programme's own module numbering: its Module 2 is folder 01 here). Data paths point
+to that tool's sandbox; change them to a local folder to run. Requires `pandas`,
+`numpy`, `matplotlib` and `openpyxl`.
